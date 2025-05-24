@@ -3,6 +3,8 @@
 gitUser="PFleur"
 branch="main"
 
+mkdir ./archer
+
 curl -sL https://raw.githubusercontent.com/PFleur/archer-archinstaller/main/0-0_archLiveEnvironment.sh > ./archr/0-0_archLiveEnvironment.sh
 curl -sL https://raw.githubusercontent.com/PFleur/archer-archinstaller/main/0-1_rootInitialSetup.sh > ./archr/0-1_rootInitialSetup.sh
 curl -sL https://raw.githubusercontent.com/PFleur/archer-archinstaller/main/1_gitPrograms.sh > ./archr/1_gitPrograms.sh
